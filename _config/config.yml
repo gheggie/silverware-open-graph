@@ -1,0 +1,41 @@
+---
+Name: silverware-open-graph
+---
+
+# Configure Page Extensions:
+
+Page:
+  extensions:
+    - SilverWare\OpenGraph\Extensions\PageExtension
+  open_graph_types:
+    default: website
+    book: book
+    article: article
+    profile: profile
+    website: website
+    music:
+      song: music.song
+      album: music.album
+      playlist: music.playlist
+      radio-station: music.radio_station
+    video:
+      movie: video.movie
+      episode: video.episode
+      tv-show: video.tv_show
+      other: video.other
+  open_graph_metadata:
+    title: OGTitle
+    type: OGType
+    image: OGImage
+    url: OGURL
+    description: OGDescription
+    site_name: OGSiteName
+    locale: OGLocale
+  open_graph_namespaces:
+    og: http://ogp.me/ns
+    book: http://ogp.me/ns/book
+    music: http://ogp.me/ns/music
+    video: http://ogp.me/ns/video
+    article: http://ogp.me/ns/article
+    profile: http://ogp.me/ns/profile
+    website: http://ogp.me/ns/website
