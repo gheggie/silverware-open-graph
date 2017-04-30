@@ -4,7 +4,6 @@ Works in conjunction with [SilverWare][silverware] to add [Open Graph][opengraph
 
 ## Contents
 
-- [Background](#background)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Configuration](#configuration)
