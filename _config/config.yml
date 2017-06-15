@@ -24,13 +24,13 @@ Page:
       tv-show: video.tv_show
       other: video.other
   open_graph_metadata:
-    title: OGTitle
-    type: OGType
-    image: OGImage
     url: OGURL
-    description: OGDescription
-    site_name: OGSiteName
+    type: OGType
+    title: OGTitle
+    image: OGImage
     locale: OGLocale
+    site_name: OGSiteName
+    description: OGDescription
   open_graph_namespaces:
     og: http://ogp.me/ns
     book: http://ogp.me/ns/book

@@ -1,5 +1,9 @@
 # SilverWare Open Graph Module
 
+[![Latest Stable Version](https://poser.pugx.org/silverware/open-graph/v/stable)](https://packagist.org/packages/silverware/open-graph)
+[![Latest Unstable Version](https://poser.pugx.org/silverware/open-graph/v/unstable)](https://packagist.org/packages/silverware/open-graph)
+[![License](https://poser.pugx.org/silverware/open-graph/license)](https://packagist.org/packages/silverware/open-graph)
+
 Works in conjunction with [SilverWare][silverware] to add [Open Graph][opengraph] metadata to pages.
 
 ## Contents

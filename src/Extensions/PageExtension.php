@@ -56,7 +56,7 @@ class PageExtension extends Extension
         
         // Add Page Namespace URI:
         
-        if ($type = $this->getOGTypeNamespace()) {
+        if ($type = $this->owner->getOGTypeNamespace()) {
             $ns[$type] = $this->getNamespaceURI($type);
         }
         
@@ -80,7 +80,7 @@ class PageExtension extends Extension
      */
     public function getOGType()
     {
-        return $this->getOGTypeMapping('default');
+        return $this->owner->getOGTypeMapping('default');
     }
     
     /**
@@ -288,7 +288,7 @@ class PageExtension extends Extension
      *
      * @return SiteConfig
      */
-    public function getSiteConfig()
+    protected function getSiteConfig()
     {
         return SiteConfig::current_site_config();
     }
