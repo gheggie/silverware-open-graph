@@ -1,6 +1,6 @@
 {
   "name": "silverware/open-graph",
-  "type": "silverstripe-module",
+  "type": "silverstripe-vendormodule",
   "description": "SilverWare Open Graph Module.",
   "homepage": "https://github.com/praxisnetau/silverware-open-graph",
   "keywords": [
@@ -31,8 +31,7 @@
   "extra": {
     "branch-alias": {
       "dev-master": "1.0.x-dev"
-    },
-    "installer-name": "silverware-open-graph"
+    }
   },
   "minimum-stability": "dev",
   "prefer-stable": true
