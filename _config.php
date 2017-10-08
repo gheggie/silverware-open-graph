@@ -14,13 +14,3 @@
  * @license https://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
  * @link https://github.com/praxisnetau/silverware-open-graph
  */
-
-// Define Module Constants:
-
-if (!defined('SILVERWARE_OPEN_GRAPH_DIR')) {
-    define('SILVERWARE_OPEN_GRAPH_DIR', basename(__DIR__));
-}
-
-if (!defined('SILVERWARE_OPEN_GRAPH_PATH')) {
-    define('SILVERWARE_OPEN_GRAPH_PATH', realpath(__DIR__));
-}
