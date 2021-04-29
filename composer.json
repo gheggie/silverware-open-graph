@@ -1,0 +1,24 @@
+{
+    "name": "praxisnetau/silverware-open-graph",
+    "description": "Open Graph module for SilverWare.",
+    "type": "silverstripe-module",
+    "homepage": "https://github.com/praxisnetau/silverware-open-graph",
+    "keywords": ["silverstripe", "silverware", "opengraph", "open", "graph", "metadata"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Colin Tucker",
+            "role": "Developer",
+            "email": "colin@praxis.net.au",
+            "homepage": "http://www.praxis.net.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "praxisnetau/silverware": "~1.0"
+    },
+    "extra": {
+        "installer-name": "silverware-opengraph"
+    },
+    "target-dir": "silverware-opengraph"
+}
